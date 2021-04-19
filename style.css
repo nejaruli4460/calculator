@@ -32,6 +32,7 @@ body{
     cursor: pointer;
     background-color: skyblue;
     border-radius: 50%;
+    outline: none;
 }
 .result{
     width: 17rem;
