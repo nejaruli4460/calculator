@@ -25,6 +25,7 @@ body{
     font-weight: 100;
     border: 1px solid greenyellow;
     border-radius: 50%;
+    background-color: #AFFF33;
 }
 .btn:hover{
     cursor: pointer;

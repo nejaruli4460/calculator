@@ -9,11 +9,11 @@ function solve()
     let x=document.getElementById("result").value;
     let y=eval(x);
     document.getElementById("result").value=y;
-    document.getElementById("result").style.backgroundColor="black";
+    document.getElementById("result").style.backgroundColor="#33FFCB";
     document.getElementById("result").style.color="white";
 }
 function clr()
 {
     document.getElementById("result").value="";
-    document.getElementById("result").style.backgroundColor="tomato";
+    document.getElementById("result").style.backgroundColor="#FFC933";
 }
