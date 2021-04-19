@@ -46,9 +46,8 @@ body{
 @media only screen and (max-width: 768px){
 .container{
     position: absolute;
-    left: 0rem;
+    left: -2px;
     top: 2rem;
-    margin: auto;
     }
     body{
         background-repeat: no-repeat;
