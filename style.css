@@ -7,11 +7,11 @@ body{
     background-size: cover;
 }
 .container{
-    position: absolute;
+    position: relative;
     left: 32rem;
     top: 10rem;
     border: 2px solid skyblue;
-    height: 383px;
+    height: 453px;
     width: 394px;
     box-shadow: 2px 2px rgba(122, 153, 221, 0.829);
 
@@ -27,6 +27,7 @@ body{
     border-radius: 50%;
     background-color: #AFFF33;
     outline: none;
+    
 }
 .btn:hover{
     cursor: pointer;
@@ -44,7 +45,33 @@ body{
     padding-left: 5px;
     border: 1px solid skyblue;
     border-radius: 25px;
-    padding-left: 10px;
+    padding-left: 10x;
+}
+.btn2{
+    width: 23rem !important;
+    border-radius: 25px !important;
+}
+.history{
+    position: absolute;
+    left: 32rem;
+    top: 10rem;
+    border: 2px solid skyblue;
+    height: 383px;
+    width: 394px;
+    box-shadow: 2px 2px rgba(122, 153, 221, 0.829);
+    display: none;
+}
+.history input{
+    width: 23rem;
+    height: 4rem;
+    margin: 5px;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 5px;
+    border: 1px solid skyblue;
+    border-radius: 25px;
+    padding-left: 10x;
 }
 @media only screen and (max-width: 768px){
 .container{

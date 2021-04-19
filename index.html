@@ -9,7 +9,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id="main" class="container">
         <div class="head">
             <input class="btn" type="button" value="C" onclick="clr()">
             <input class="result" type="text"  id="result">
@@ -38,6 +38,15 @@
             <input class="btn" type="button" value="=" onclick="solve()">
             <input class="btn" type="button" value="+" onclick="dis('+')">
         </div>
+        <div>
+            <input class="btn2 btn" type="button" value="HISTORY" onclick="hist()">
+        </div>
+    </div>
+    <div id="hist" class="history">
+
+        <input id="history" type="text">
+        <input class="btn" type="button" value="CLEAR" onclick="hisclr()">
+        <input class="btn" type="button" value="BACK" onclick="back()">
     </div>
 </body>
 </html>
