@@ -19,7 +19,7 @@ function solve()
     }
     if(y=='1')
     {
-        document.getElementById("result").value="NEVER SETTLE";
+        document.getElementById("result").value="SUPRIYO DA ROCK";
         document.getElementById("result").style.color="white";
         document.getElementById("result").style.backgroundColor="red";
     }
