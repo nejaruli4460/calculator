@@ -13,6 +13,16 @@ function solve()
     document.getElementById("result").value=y;
     document.getElementById("result").style.backgroundColor="#33FFCB";
     document.getElementById("result").style.color="white";
+    if(y=='7264')
+    {
+        document.getElementById("result").value="I LOVE YOU";
+    }
+    if(y=='1')
+    {
+        document.getElementById("result").value="NEVER SETTLE";
+        document.getElementById("result").style.color="white";
+        document.getElementById("result").style.backgroundColor="red";
+    }
 
 }
 function clr()
